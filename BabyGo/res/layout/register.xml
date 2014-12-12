@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+     >
+
+    <TextView
+        android:id="@+id/reg_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar_bg_gray"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_account"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="45dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_account"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+        <EditText
+            android:id="@+id/reg_username"
+            style="@style/accountEditText"
+            android:hint="@string/et_account_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_password"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/ll_account"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_password"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/reg_password"
+            style="@style/accountEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/et_password_hint" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/confirm_password"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/ll_password"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_password"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/reg_confirm"
+            style="@style/accountEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/confirm_password_hint" />
+        
+    </LinearLayout>
+     <LinearLayout
+        android:id="@+id/baby_nickname"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/confirm_password"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baby_nickname"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/reg_nickname"
+            style="@style/accountEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/baby_nickname_hint" />
+        
+    </LinearLayout>
+     <LinearLayout
+        android:id="@+id/baby_age"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/baby_nickname"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/baby_age"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/reg_age"
+            style="@style/accountEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/baby_age_hint" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upload_photo"
+        android:layout_below="@id/baby_age"
+        android:layout_marginTop="15dp" 
+        style="@style/photoInputBorder">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_photo"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+           <ImageView
+               android:id="@+id/reg_headPhoto"
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_marginLeft="10dip"
+               android:src="@drawable/user_headphoto2" 
+               />
+            <Button
+			android:id="@+id/reg_btn_takePhoto"
+			android:text="@string/reg_takePhoto"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="50dip"
+			android:layout_marginTop="3dp"
+			/>    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upload_photo"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="13dp" >
+       <Button
+           android:id="@+id/reg_btn_register"
+            style="@style/accountButtonStyle"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn_quick_register"
+            android:onClick="enter"
+            android:text="@string/btn_imme_register" />
+       
+        <Button
+            android:id="@+id/reg_btn_login"
+            style="@style/accountButtonStyle"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn_add_accounts"
+            android:text="@string/btn_return_accounts" />
+
+       
+
+    </LinearLayout>
+
+</RelativeLayout>

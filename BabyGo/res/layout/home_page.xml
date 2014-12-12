@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#808080"
+    android:id="@+id/Relativelayout1"
+    >
+ <ImageView
+     android:layout_width="fill_parent"
+     android:layout_height="150dip"
+     android:background="@drawable/home" 
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginTop="10dp" />
+
+ <TableLayout
+     android:id="@+id/tableLayout_travel"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+ 	 <TableRow 
+	 android:layout_width="fill_parent" 
+	 android:layout_height="fill_parent"
+     android:paddingTop="5dip"
+	 android:layout_marginLeft="5dip"
+	 android:layout_marginRight="5dip">
+      <!-- 1 -->
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="5dp"   
+        >
+
+        <TextView
+            android:id="@+id/travel_guide"
+            android:layout_width="fill_parent"
+            android:layout_height="127dp"
+            android:background="#FF3366"
+            android:drawableBottom="@drawable/home_scenery"
+            android:gravity="top"
+            android:padding="5dip"
+            android:text="出游攻略"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+  
+         <TextView
+             android:id="@+id/record_growth"
+             android:layout_width="fill_parent"
+             android:layout_height="126dp"
+             android:layout_marginTop="10dp"
+             android:background="#FF6600"
+             android:drawableBottom="@drawable/voice_record"
+             android:gravity="top"
+             android:padding="5dip"
+             android:text="记录成长"
+             android:textColor="#ffffff"
+             android:textSize="15sp" />
+        
+    </LinearLayout>  
+    <!-- 2 -->
+    <LinearLayout 
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="5dip"
+        >
+
+        <TextView
+            android:id="@+id/find_parnter"
+            android:layout_width="fill_parent"
+            android:layout_height="127dp"
+            android:background="#CC33FF"
+            android:drawableBottom="@drawable/shop_hand"
+            android:gravity="top"
+            android:padding="5dip"
+            android:text="寻找同伴"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:clickable="true" />
+  
+         <TextView 
+          android:id="@+id/children_education"
+          android:layout_width="fill_parent"
+          android:layout_height="126dp"
+          android:layout_marginTop="10dp"
+          android:background="#00CCFF"
+          android:gravity="top"
+          android:padding="5dip"
+          android:text="育儿经"
+          android:drawableBottom="@drawable/home_train"
+          android:textColor="#ffffff"
+          android:textSize="15sp"
+          />          
+    </LinearLayout>     
+  </TableRow>      
+ </TableLayout>
+</LinearLayout>

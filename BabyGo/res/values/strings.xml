@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">宝贝去哪儿</string>
+    <string name="baby_nickname">宝贝昵称：</string>
+    <string name="baby_nickname_hint">请输入宝贝昵称</string>
+    <string name="baby_age">宝贝年龄：</string>
+    <string name="baby_age_hint">请输入宝贝年龄</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="tv_account">帐号：</string>
+    <string name="tv_password">密码：</string>
+    <string name="upload_photo">头像：</string>
+    <string name="confirm_password">确认密码：</string>
+    <string name="tv_forget_password">忘记密码</string>
+    <string name="btn_add_accounts">立即登录</string>
+    <string name="btn_quick_register">快速注册</string>
+    <string name="btn_imme_register">立即注册</string>
+    <string name="btn_return_accounts">返回登录</string>
+    <string name="et_account_hint">请输入您的手机号\邮箱\用户名</string>
+    <string name="et_password_hint">请输入密码</string>
+    <string name="confirm_password_hint">请重复输入密码</string>
+    <string name="reg_takePhoto">点击拍照</string>
+    <!-- registererror -->
+   	<string name="reg_error_userNameEmpty">用户名不能为空</string>
+   	<string name="reg_error_passwordEmpty">密码不能为空</string>
+   	<string name="reg_error_confirmEmpty">确认密码不能为空</string>
+   	<string name="reg_error_confirmError">密码未确认</string>
+   	<string name="reg_error_userNameConflict">用户名已存在</string>
+   	
+   	<string name="attachToContact">头像选择</string>
+   	<string name="take_photo">拍照</string>
+    <string name="pick_photo">从图库中选择一张</string>
+    <string name="photoPickerNotFoundText" >照相机没拍到照片</string>
+    <string name="photoPickerNotFoundText1" >手机里面没有照片</string>
+    <string name="photoPickerNotFoundText2" >剪辑照片出错</string>
+   	
+   	
+   	<!-- Main === writeMicroBlog -->
+    <string name="tab_wmb_mbcontent">信息：</string>
+    <string name="tab_wmb_sendmb">发表信息</string>
+    
+    <!-- MicroBlog Detail -->
+    <string name="mb_detail_transmit">转发并评论</string>
+    <string name="mb_detail_comment">评论</string>
+    <string name="mb_detail_collection">收藏</string>
+    
+    <!-- Search -->
+    <string name="search_hint">请输入用户名</string>
+        <string name="text_liebiao">景点列表</string>
+        <string name="text_null">   </string>
+        <string name="button_yilan">景点一览</string>
+        <string name="button_gailan">景点概览</string>
+        <string name="button_liebiao">景点列表</string>
+        <string name="text_gailan">景点概览</string>
+        <string name="text_yilan">景点一览</string>
+        <string name="title_yilan">景点一览</string>
+        <string name="text_message">通知</string>
+</resources>

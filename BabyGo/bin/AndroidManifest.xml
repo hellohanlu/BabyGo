@@ -1,0 +1,97 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hl.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk  android:minSdkVersion="7"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>  
+    <!-- 往SDCard写入数据权限 -->  
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+      <activity
+            android:name=".Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name=".MainActivity"> 
+        </activity>
+         <activity
+            android:name=".LoginActivity"> 
+        </activity>
+         <activity
+            android:name=".RegisterActivity"> 
+        </activity>
+         <activity
+            android:name=".MainTabActivity"> 
+        </activity>
+         <activity
+            android:name=".CollectionActivity"> 
+        </activity> 
+        <activity
+            android:name=".FindMainActivity"> 
+        </activity>
+         <activity
+            android:name=".HomePageActivity"> 
+        </activity>
+         <activity
+            android:name=".MicroBlogDetailActivity"> 
+        </activity>
+         <activity
+            android:name=".PersonInfoActivity"> 
+        </activity>
+         <activity
+            android:name=".SearchActivity"> 
+        </activity>
+         <activity
+            android:name=".UserFollowActivity"> 
+        </activity>
+         <activity
+            android:name=".UserMicroBlogActivity"> 
+        </activity>
+         <activity
+            android:name=".WriteMicroBlogActivity"> 
+        </activity>
+        <activity
+            android:name=".TakePhotoActivity"> 
+        </activity>
+            <activity
+            android:name=".WebmmActivity"> 
+        </activity> 
+            <activity
+            android:name=".RecordActivity"
+            android:theme="@style/AppTheme"> 
+        </activity> 
+         <activity
+            android:name=".RecordAdapterActivity"
+            > 
+        </activity> 
+         <activity
+            android:name=".U"> 
+        </activity> 
+           <activity
+            android:name=".TravelPageActivity"> 
+        </activity> 
+             <activity
+            android:name=".JingDianGaiLan"> 
+        </activity> 
+             <activity
+            android:name=".TravelDetailActivity"> 
+        </activity> 
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/bg_splash">
+    
+    <Button
+		android:id="@+id/Button_gailan2"
+		android:layout_width="160dp"				
+		android:layout_height= "40dp"
+		android:text = "@string/button_gailan"
+		android:textSize="20sp"
+		android:background="#2a0000ff"
+	/>
+    <Button
+        android:layout_toRightOf="@id/Button_gailan2"
+		android:id="@+id/Button_liebiao2"
+		android:layout_width="fill_parent"
+		android:layout_height= "40dp"
+		android:text = "@string/button_liebiao"
+		android:textSize="20sp"
+		android:background="#2a0000ff"
+		android:layout_marginLeft="1dp"
+	/>
+ 	
+ 	<ScrollView 
+	 	android:fadingEdge="vertical"
+	 	android:layout_width="fill_parent"  
+		android:layout_height="fill_parent"  
+		android:layout_marginTop="50dip"
+	 	>  
+	 
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:background="@drawable/bg_splash">
+	    
+    <TextView
+       android:id="@+id/Text_jingdiangailan"
+       android:layout_below="@id/Button_liebiao2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"        
+       android:text="@string/text_gailan" 
+       android:textSize="16sp"
+       android:textColor="@color/black"
+       android:gravity="center|left"
+       android:layout_marginRight="3dip"
+       />   
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

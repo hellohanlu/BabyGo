@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+	android:layout_width="fill_parent"  
+	android:layout_height="fill_parent" 
+	android:fadingEdge="vertical">	
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/bg_splash"
+	    android:orientation="vertical" >
+
+    <TextView
+       android:id="@+id/picXinxi"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"        
+       android:text="@string/text_gailan" 
+       android:textColor="@color/black"
+       android:gravity="center_vertical|center_horizontal"
+       />
+    <TextView
+       android:id="@+id/textXinxi"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"        
+       android:text="@string/text_gailan" 
+       android:textSize="16sp"
+       android:textColor="@color/black"
+       android:gravity="center|left"
+       android:layout_marginRight="3dip"
+       />
+</LinearLayout>
+</ScrollView>

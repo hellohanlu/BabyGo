@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+	 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/bj">
+    
+    <Button
+		android:id="@+id/Button_gailan1"
+		android:layout_width="160dp"				
+		android:layout_height= "40dp"
+		android:text = "@string/button_gailan"		
+		android:textSize="20sp"
+		android:background="#2a0000ff"
+	/>
+    
+    <Button
+        android:layout_toRightOf="@id/Button_gailan1"
+		android:id="@+id/Button_liebiao1"
+		android:layout_width="fill_parent"
+		android:layout_height= "40dp"
+		android:text = "@string/button_liebiao"
+		android:textSize="20sp"
+		android:background="#2a0000ff"
+		android:layout_marginLeft="1dp"
+	/>  
+    <ScrollView 
+	 	android:fadingEdge="vertical"
+	 	android:layout_width="fill_parent"  
+		android:layout_height="fill_parent"  
+		android:layout_marginTop="50dip"
+	 	>  
+	 
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:background="@drawable/bj">
+    
+    <Button        
+		android:id="@+id/Button_item1"
+		android:layout_below="@id/Button_gailan1"
+		android:layout_width="fill_parent"
+		android:layout_height= "wrap_content"
+		android:text = "@string/text_null"
+		android:gravity="center|left"
+		android:background="#0a0000ff"
+	/>
+    <Button
+		android:id="@+id/Button_item2"
+		android:layout_below="@id/Button_item1"
+		android:layout_width="fill_parent"
+		android:layout_height= "wrap_content"
+		android:text = "@string/text_null"
+		android:gravity="center|left"
+		android:background="#0a0000ff"
+		android:layout_marginTop="1dp"
+	/>
+    
+    <Button
+		android:id="@+id/Button_item3"
+		android:layout_below="@id/Button_item2"
+		android:layout_width="fill_parent"
+		android:layout_height= "wrap_content"
+		android:text = "@string/text_null"
+		android:gravity="center|left"
+		android:background="#0a0000ff"
+		android:layout_marginTop="1dp"
+	/>   
+	
+    <Button
+		android:id="@+id/Button_item4"
+		android:layout_below="@id/Button_item3"
+		android:layout_width="fill_parent"
+		android:layout_height= "wrap_content"
+		android:text = "@string/text_null"
+		android:gravity="center|left"
+		android:background="#0a0000ff"
+		android:layout_marginTop="1dp"
+	/>   
+	
+    <Button
+		android:id="@+id/Button_item5"
+		android:layout_below="@id/Button_item4"
+		android:layout_width="fill_parent"
+		android:layout_height= "wrap_content"
+		android:text = "@string/text_null"
+		android:gravity="center|left"
+		android:background="#0a0000ff"
+		android:layout_marginTop="1dp"
+	/>   
+	
+    <Button
+		android:id="@+id/Button_item6"		
+		android:layout_below="@id/Button_item5"
+		android:layout_width="fill_parent"
+		android:layout_height= "wrap_content"
+		android:text = "@string/text_null"
+		android:gravity="center|left"
+		android:background="#0a0000ff"
+		android:layout_marginTop="1dp"
+	/> 	    
+	</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

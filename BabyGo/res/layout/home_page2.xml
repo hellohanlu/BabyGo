@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:background="@color/window_bg" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">   
+            <!-- 分享 -->
+            <LinearLayout 
+                style="@style/leba_bg_layout">            
+                <LinearLayout 
+                    style="@style/leba_bg_single_layout">                
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="分享" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/setting_arrow"/>
+                </LinearLayout>
+            </LinearLayout>
+             
+                
+            <!--  反馈建议	关于 -->   
+            <LinearLayout 
+                style="@style/leba_bg_layout">                    
+                <!--  反馈建议 	-->   
+                <LinearLayout 
+                    style="@style/leba_bg_top_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="反馈建议" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/setting_arrow"/>
+                </LinearLayout>
+                
+                <View android:background="@drawable/leba_shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                
+                <!-- 关于 -->   
+                <LinearLayout 
+                    style="@style/leba_bg_bottom_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="关于" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/setting_arrow"/>
+                </LinearLayout>                             
+            </LinearLayout>
+            
+                
+                
+            <!--  设置	评分	     版权 -->   
+            <LinearLayout 
+                style="@style/leba_bg_layout">                  
+                <!--  设置 	-->   
+                <LinearLayout 
+                    style="@style/leba_bg_top_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="设置" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/setting_arrow"/>
+                </LinearLayout>
+                
+                <View android:background="@drawable/leba_shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                
+                 <!--  评分	-->   
+                 <LinearLayout 
+                 	 style="@style/leba_bg_mid_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="评分" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/setting_arrow"/>
+                 </LinearLayout>
+                
+                 <View android:background="@drawable/leba_shape_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                      
+                <!-- 版权  -->   
+                <LinearLayout 
+                    style="@style/leba_bg_bottom_layout">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="版权" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/setting_arrow"/>
+                </LinearLayout>                             
+            </LinearLayout>    
+</LinearLayout>

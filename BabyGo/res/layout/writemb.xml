@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView
+		android:text="@string/tab_wmb_mbcontent"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10px"
+		android:layout_marginLeft="30px"
+		android:textSize="20px"
+		/>
+	<EditText
+		android:id="@+id/tab_wmb_Content"
+		android:layout_width="fill_parent"
+		android:layout_height="200dip"
+		android:layout_marginTop="5px"
+		android:layout_gravity="center_horizontal"
+		android:gravity="top"
+		android:maxLength="140"
+		/>
+	<TextView
+		android:id="@+id/tab_wmb_contentSize"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:text="140"
+		/>
+	<Button
+		android:id="@+id/tab_wmb_sendmb"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/tab_wmb_sendmb"
+		/>
+		
+</LinearLayout>
